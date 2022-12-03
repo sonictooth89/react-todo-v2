@@ -1,8 +1,7 @@
-const Footer = () => {
+const Footer = (props) => {
     return (
         <>
-        <h2>Designed in California</h2>
-        <h3>Assembled in Vietnam</h3>
+        <h2>{props.text}</h2>
         </>
     )
 }

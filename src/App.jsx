@@ -5,11 +5,15 @@ import Main from './components/Main';
 
 
 function App() {
+
+  const headerText = 'My To Do List';
+  const footerText = 'This is footer';
+
   return (
     <div className="App">
-      <Header/>
+      <Header text = {headerText}/>
       <Main />
-      <Footer />
+      <Footer text = {footerText} />
     </div>
   );
 }
